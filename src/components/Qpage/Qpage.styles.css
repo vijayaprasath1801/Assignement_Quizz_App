@@ -1,0 +1,61 @@
+.q-con{
+    margin: 0 auto;
+    background-color: aliceblue;
+    padding: 15px;
+    border-radius: 16px;
+    color:black;
+
+    width: 60%;
+    height: auto;
+}
+ul{
+    list-style: none;
+}
+li{
+    background-color:cadetblue;
+    padding: 16px;
+    border: 2px solid white;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-top: 8px;
+}
+li:hover{
+    color:azure;
+    background-color:slategray;
+}
+
+h1{
+    color: peachpuff;
+}
+.results > button{
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 5px;
+  border: none;
+  cursor: pointer;
+  width: 120px;
+  justify-content: space-between;
+  align-self: center;
+}
+.results > h3{
+    color: aliceblue;
+}
+.Qpage{
+    margin-top: 55px;
+    position:relative;
+    padding-bottom: 20px;
+}
+.results{
+    padding: 50px;
+}
+@media screen and (max-width: 300px) {
+    .Qpage{
+       display: block;
+       float: none;
+       align-self: center;
+      }
+  .btn {
+       width: 100%;
+    }
+  }
