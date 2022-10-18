@@ -40,8 +40,7 @@ function QuizzPage() {
      <div className='results'>
      <h1>Your Result</h1>
      <h3>{score} out of {Questions.length} is correct -({(score/Questions.length)*100}% )</h3>
-     <button onClick={retake}>Retake</button>
-     <button onClick={goToLog}>Close</button>
+     {score < 5 ? (<button onClick={retake}>Retake</button>) :(<button onClick={goToLog}>Close</button>)}
      </div> ):(
       <div>
       <div>
